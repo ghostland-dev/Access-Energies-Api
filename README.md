@@ -1,4 +1,4 @@
-# Voltaria API
+# Energy Metering API
 
 FastAPI service that authenticates against an energy provider and fetches metering data.
 
@@ -18,8 +18,8 @@ FastAPI service that authenticates against an energy provider and fetches meteri
 ## Getting Started
 
 ```bash
-git clone https://github.com/ghostland-dev/Voltaria-api.git
-cd Voltaria-api
+git clone https://github.com/ghostland-dev/energy-metering-api.git
+cd energy-metering-api
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload
